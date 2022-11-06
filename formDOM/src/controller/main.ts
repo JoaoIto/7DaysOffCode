@@ -1,4 +1,4 @@
-import { Form } from "./index.js";
+import { Form } from "../models/index.js";
 
 export class formInput{
   inputForm: HTMLInputElement;

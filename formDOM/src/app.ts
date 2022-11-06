@@ -1,4 +1,4 @@
-import { formInput } from './main'
+import { formInput } from './controller/main'
 
 const formObject = new formInput();
 const form = document.querySelector(".form");
