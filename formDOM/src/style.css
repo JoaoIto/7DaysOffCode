@@ -1,21 +1,39 @@
 body{
-  width: 60vw;
-  height: 30vh;
+  width: 100vw;
+  height: 80vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   font-family: 'Inter', sans-serif;
+  font-weight: bold;
   background-color: #121214;
   color: #fff;
 }
-h1{
-  text-align: center;
-}
 
-fieldset{
-  width: 60%;
-  height: 30vh;
+form{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
+}
+fieldset{
+  width: 70%;
+  height: 40vh;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  height: 30px;
+  width: 80%;
+  margin: 30px 0;
+}
+
+button{
+  height: 40px; 
+  width: 100%;
 }
