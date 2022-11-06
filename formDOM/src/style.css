@@ -1,0 +1,21 @@
+body{
+  width: 60vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  background-color: #121214;
+  color: #fff;
+}
+h1{
+  text-align: center;
+}
+
+fieldset{
+  width: 60%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
