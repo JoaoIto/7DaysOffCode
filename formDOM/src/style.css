@@ -1,39 +1,45 @@
 body{
-  width: 100vw;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: column;
-  font-family: 'Inter', sans-serif;
-  font-weight: bold;
-  background-color: #121214;
+  background-color: #101214;
   color: #fff;
+  font-family: 'Inter',
+  sans-serif;
 }
-
 form{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100vh;
+  width: 100vw;
 }
+
 fieldset{
-  width: 70%;
-  height: 40vh;
-  padding: 30px 20px;
+  height: 50%;
+  width: 30%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid #2e4964;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #aebac7;
 }
 
-input{
-  height: 30px;
-  width: 80%;
-  margin: 30px 0;
+input, #submit{
+  height: 40px;
+  padding: 10px;
+  width: 90%;
+  background-color: #15293d;
+  border: 2px solid #2e4964;
+  border-radius: 10px;
 }
 
-button{
-  height: 40px; 
-  width: 100%;
+#submit{
+  font-size: 1.1rem;
+  background-color: #2676c7;
+  color: #fff;
+}
+input::placeholder{
+  font-family: 'Inter', sans-serif;
+  color: #c1cedb;
 }
